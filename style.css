@@ -287,6 +287,18 @@ nav .profile-details i{
 .log_out span a {
   color: #fff;
 }
+
+#marcador{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+text-align: center;
+background-color: transparent;
+outline: none;
+border: none;
+font-size: 1rem;
+}
 .table-container{
   max-width: 100%;
   min-height: 100vh;

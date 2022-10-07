@@ -299,6 +299,7 @@ nav .profile-details i{
 
 .table{
   width: 90%;
+  margin: 7rem 0;
   border-collapse: collapse;
 }
 
@@ -319,6 +320,9 @@ td{
 @media (max-width:780px) {
   thead{
     display: none;
+  }
+  .table-container{
+    padding: 50px 0;
   }
   .table-container,.tbody,tr,td{
     display:block;

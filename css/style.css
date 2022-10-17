@@ -12,12 +12,15 @@
 
 /* ===== Colours ===== */
 :root{
-    --body-color: #E4E9F7;
+    --body-color: #E0E5F6;
     --nav-color: #590D12;
     --side-nav: #240507;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
     --search-text: #010718;
+    --right-color: #62A87C;
+    --warning-color: #FC9A4A;
+    --dead-color: #BD2C0F;
 }
 
 body{
@@ -239,11 +242,65 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 
-.raking_section{
-    margin-top: 7rem;
+.raking_section h2{
+    color: #393838;
+
 }
-
-
+.raking_section h2.dark{
+    color: #fff;
+}
+.raking_section{
+    margin: 7rem auto;
+    padding: 0 5%;
+    font-size: 20px;
+}
+.raking_section-content, .raking_details    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    max-width: 100%;
+}
+.raking_box{
+    background-color: #EFF2FA;
+    border-radius: 1em;
+}
+.raking_details .details{
+    margin: 1.5em 4em;
+    text-align: center;
+    list-style: none;
+}
+.details li{
+    margin-top: 1.2em;
+    border-bottom: 1px solid #D7D5D7;
+}
+.details li:last-child{
+    border-bottom: none;
+}
+.details_right-good{
+    color: var(--right-color);
+}
+.details_right-warning{
+    color: var(--warning-color);
+}
+.details_right-dead{
+    color: var(--dead-color);
+}
+.button button{
+    background: #590D12;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.5em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: #FFF;
+}
 
 
 @media (max-width: 790px) {

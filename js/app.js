@@ -1,5 +1,6 @@
 const body = document.querySelector("body"),
       nav = document.querySelector("nav"),
+      h2 = document.querySelector("h2"),
       modeToggle = document.querySelector(".dark-light"),
       searchToggle = document.querySelector(".searchToggle"),
       sidebarOpen = document.querySelector(".sidebarOpen"),
@@ -8,6 +9,7 @@ const body = document.querySelector("body"),
       let getMode = localStorage.getItem("mode");
           if(getMode && getMode === "dark-mode"){
             body.classList.add("dark");
+            h2.classList.add("dark");
           }
 
 // js code to toggle dark and light mode
@@ -27,8 +29,7 @@ const body = document.querySelector("body"),
         searchToggle.addEventListener("click" , () =>{
         searchToggle.classList.toggle("active");
       });
- 
-      
+
 //   js code to toggle sidebar
 sidebarOpen.addEventListener("click" , () =>{
     nav.classList.add("active");

@@ -239,6 +239,13 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 
+.raking_section{
+    margin-top: 7rem;
+}
+
+
+
+
 @media (max-width: 790px) {
     nav .nav-bar .sidebarOpen{
         display: block;

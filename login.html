@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Inicio Sesión</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Ingresa tu contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recuerdame</label>
+                        </div>
+
+                        <a href="#" class="text">¿Olvidaste tu contraseña?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <a href="index.html"><input type="button" value="Inicia Sesión"></a>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿No tienes cuenta?
+                        <a href="#" class="text signup-link">Registrate</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registro</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu nombre" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Ingresa tu email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" placeholder="Codigo del pais" required>
+                        <i class="uil uil-map-marker"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" placeholder="Ingresa tu numero celular" required>
+                        <i class="uil uil-phone"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Crea una contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirma la contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Acepto terminos y condiciones</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <a href="index.html"><input type="button" value="Registrate"></a>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿Ya tienes una cuenta?
+                        <a href="login.html" class="text login-link">Inicia Sesión</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
